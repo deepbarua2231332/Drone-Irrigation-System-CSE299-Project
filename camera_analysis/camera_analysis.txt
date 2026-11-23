@@ -1,0 +1,6 @@
+camera_analysis/
+├── roi_crop.py          # Land ROI percentage box, mask builder, and background dimming
+├── vari_map.py          # VARI = (G - R) / (G + R - B) calculation, color mapping, and legend
+├── health_classifier.py # Healthy / Yellow / Brown-Dry pixel classification & threshold evaluation
+├── vari_stream.py       # Main controller: ESP32-CAM HTTP capture + OpenCV sliders & display
+└── requirements.txt     # opencv-python and numpy
