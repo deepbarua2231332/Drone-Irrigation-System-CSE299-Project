@@ -87,8 +87,8 @@ python camera_analysis/vari_stream.py
 ## Team & Supervision
 
 * **Deep Barua** (`2231332642`) — Team Lead (Drone & Imaging)
-* **Salim Shadman Soron** (`2212680042`) — Technical Lead (Decision Logic & Dashboard)
-* **Mirza Zareef Ahmed** (`2514545642`) — Embedded, Docs & QA
+* **Salim Shadman Soron** (`2514545642`) — Embedded, Docs & QA
+* **Mirza Zareef Ahmed** (`2212680042`) — Technical Lead (Decision Logic & Dashboard)
 * **Supervisor:** Mirza Mohammad Lutfe Elahi, Department of Electrical and Computer Engineering, North South University
 
 
