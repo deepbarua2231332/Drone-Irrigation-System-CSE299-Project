@@ -6,7 +6,8 @@ camera_analysis/
 
 └── requirements.txt     # opencv-python and numpy
 
-roi_crop.py — Defines and applies the Land ROI (rectangular crop/mask) to isolate your plot/tray/foliage area and exclude background 
-noise.vari_map.py — Computes VARI ($\frac{G - R}{G + R - B}$) on the cropped region and renders a color-binned VARI map + legend.
+roi_crop.py — Defines and applies the Land ROI (rectangular crop/mask) to isolate your plot/tray/foliage area and exclude background noise.
+vari_map.py — Computes VARI ($\frac{G - R}{G + R - B}$) on the cropped region and renders a color-binned VARI map + legend.
 health_classifier.py — Classifies vegetation pixels into Healthy / Yellow / Brown-Dry (keeping pale/washed-out foliage out of "Healthy") and evaluates overall status against your customizable Healthy % threshold.
 vari_stream.py — Ties all three together with the ESP32-CAM HTTP capture (192.168.4.1) and OpenCV slider controller (cv2.createTrackbar).
+
